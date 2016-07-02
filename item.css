@@ -1,0 +1,21 @@
+ .blog-grid .post .post-meta {
+        right: 10px;
+opacity: 1;
+      }
+      .blog-grid .post:hover .post-meta {
+        right: 10px;
+opacity: 1;
+      }
+
+      .item .post .post-meta, .static_page .post .post-meta {
+        top: 0 !important;
+        right: -72px !important;
+        color: red;
+      }
+
+      .blog-content .post .post-meta {
+        position: absolute;
+        top: 0;
+        right: -10px;
+        z-index: 99;
+        }
